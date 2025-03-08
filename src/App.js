@@ -6,6 +6,7 @@ function App() {
         <div className="app-container">
             <h1>React Counter App</h1>
             <Counter />
+            <h1>Shivangi Mishra</h1>
         </div>
     );
 }
