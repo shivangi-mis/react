@@ -6,6 +6,7 @@ function Counter() {
     return (
         <div className="counter-container">
             <h2>Counter: {count}</h2>
+            <h2>Tumse Padha Nahi jaa raha</h2>
             <button className="btn" onClick={() => setCount(count + 1)}>+</button>
             <button className="btn" onClick={() => setCount(count - 1)}>-</button>
             <button className="reset-btn" onClick={() => setCount(0)}>Reset</button>
